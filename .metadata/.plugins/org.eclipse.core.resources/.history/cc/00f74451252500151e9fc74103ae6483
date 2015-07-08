@@ -1,0 +1,8 @@
+var dogInfo = {"dogBreed" : [	//dogBreed is an array in dogInfo
+								{"breed": "Weimaraner"},
+								{"breed": "Siberian Husky"},
+								{"breed": "Labrador Retriever"},
+								{"breed": "Boxer"},
+								{"breed": "Rottweiler"},
+							  ], //end weimaraner array
+			   }; //ends dogInfo

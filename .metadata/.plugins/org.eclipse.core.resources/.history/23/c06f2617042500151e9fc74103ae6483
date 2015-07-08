@@ -1,0 +1,20 @@
+var dogInfo = {"Weimaraner" : [	//weimaraner is an array in dogInfo
+								{"breed": "blah"},
+								{"description": "blah"},
+								{"temperament": "blah"},
+								{"height&weight": "blah"},
+								{"healthProblems": "blah"},
+								{"exercise": "blah"},
+								{"origin": "blah"},
+							  ], //end weimaraner array
+			"Siberian Husky": [ //siberian husky is another array in dogInfo	  
+								{"breed": "blah"},
+								{"description": "blah"},
+								{"temperament": "blah"},
+								{"height&weight": "blah"},
+								{"healthProblems": "blah"},
+								{"exercise": "blah"},
+								{"origin": "blah"},
+						      ] //end siberian husky array
+			   }; //ends dogInfo
+				

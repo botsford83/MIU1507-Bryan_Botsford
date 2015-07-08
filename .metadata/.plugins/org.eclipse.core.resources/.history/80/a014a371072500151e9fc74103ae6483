@@ -1,0 +1,75 @@
+//jSon Object
+var breedJson = [
+	{breed: "Weimaraner", dtitle: "Description", dInfo:"", tTitle: "Temperament", tInfo: "", hwTitle: "Height & Weight", hwInfo: "", hTitle: "Health Problems", hInfo: "", eTitle: "Exercise", eInfo: "", oTitle: "Origin", oInfo: ""},
+	{breed: "Siberian Husky", dtitle: "Description", dInfo:"", tTitle: "Temperament", tInfo: "", hwTitle: "Height & Weight", hwInfo: "", hTitle: "Health Problems", hInfo: "", eTitle: "Exercise", eInfo: "", oTitle: "Origin", oInfo: ""},
+	{breed: "Labrador Retriever", dtitle: "Description", dInfo:"", tTitle: "Temperament", tInfo: "", hwTitle: "Height & Weight", hwInfo: "", hTitle: "Health Problems", hInfo: "", eTitle: "Exercise", eInfo: "", oTitle: "Origin", oInfo: ""},
+	{breed: "Boxer", dtitle: "Description", dInfo:"", tTitle: "Temperament", tInfo: "", hwTitle: "Height & Weight", hwInfo: "", hTitle: "Health Problems", hInfo: "", eTitle: "Exercise", eInfo: "", oTitle: "Origin", oInfo: ""},
+	{breed: "Rottweiler", dtitle: "Description", dInfo:"", tTitle: "Temperament", tInfo: "", hwTitle: "Height & Weight", hwInfo: "", hTitle: "Health Problems", hInfo: "", eTitle: "Exercise", eInfo: "", oTitle: "Origin", oInfo: ""}
+];
+var dogInfo = {"dogBreed" : [	//dogBreed is an array in dogInfo
+								{"breed": "Weimaraner",
+								 "info": {"description": "weims are pretty"}
+								},
+								{"breed": "Siberian Husky", 
+								 "info": {"description": "huskies are cute"},
+								},
+								{"breed": "Labrador Retriever",
+								"info": {"description": "labs are great"},
+							    },
+								{"breed": "Boxer",
+								"info": {"description": "boxers are dogs"},
+								},
+								{"breed": "Rottweiler",
+								"info": {"description": "these are great dogs"},
+								},
+							  ], //end weimaraner array
+			   }; //ends dogInfo
+				
+console.log(dogInfo.dogBreed[3].info.description);
+//event listener for start button on main window
+fetchButton.addEventListener("click", function(){
+navWindow.openWindow(breedWindow, {animated: true});
+//custom header
+	var breedHeader = Ti.UI.createView({
+		height: 30,
+		backgroundColor: "#878787"
+	});
+	var breedText = Ti.UI.createLabel({
+		text: "Dog Breeds",
+		font: {fontSize: 22, fontWeight: "bold"},
+		color: "#fff"
+	});
+//adds text to header
+breedHeader.add(breedText);
+	//Table Views
+	var breedSection = Ti.UI.createTableViewSection({
+		headerViewer: breedHeader
+	});
+	var breedTable = Ti.UI.createTableView({
+		top: 0
+	});
+	//for loop to add rows using json
+	for(var i = 0, j = dogInfo.dogBreed.length; i < j; i++){
+		var breedRow = Ti.UI.createTableViewRow({
+			title: dogInfo.dogBreed[i].breed,
+			//title: breedJson[i].breed,
+			hasChild: true
+		});
+		//checks if its running IOS
+		if(Ti.Platform.name === "iPhone OS"){
+			breedRow.hasChild = false;
+			breedRow.hasDetail = true;
+		}
+		//adds row to the section
+		breedSection.add(breedRow);
+
+		//INFO WINDOW
+breedRow.addEventListener("click", function(){
+	console.log(this.dogInfo.dogBreed.info.description);
+});
+		
+		var dogBreedSection = [breedSection];
+		breedTable.setData(dogBreedSection);
+		breedWindow.add(breedTable);		
+	};
+});

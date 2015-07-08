@@ -1,0 +1,76 @@
+//jSon Object
+var breedJson = [
+	{breed: "Weimaraner", dtitle: "Description", dInfo:"", tTitle: "Temperament", tInfo: "", hwTitle: "Height & Weight", hwInfo: "", hTitle: "Health Problems", hInfo: "", eTitle: "Exercise", eInfo: "", oTitle: "Origin", oInfo: ""},
+	{breed: "Siberian Husky", dtitle: "Description", dInfo:"", tTitle: "Temperament", tInfo: "", hwTitle: "Height & Weight", hwInfo: "", hTitle: "Health Problems", hInfo: "", eTitle: "Exercise", eInfo: "", oTitle: "Origin", oInfo: ""},
+	{breed: "Labrador Retriever", dtitle: "Description", dInfo:"", tTitle: "Temperament", tInfo: "", hwTitle: "Height & Weight", hwInfo: "", hTitle: "Health Problems", hInfo: "", eTitle: "Exercise", eInfo: "", oTitle: "Origin", oInfo: ""},
+	{breed: "Boxer", dtitle: "Description", dInfo:"", tTitle: "Temperament", tInfo: "", hwTitle: "Height & Weight", hwInfo: "", hTitle: "Health Problems", hInfo: "", eTitle: "Exercise", eInfo: "", oTitle: "Origin", oInfo: ""},
+	{breed: "Rottweiler", dtitle: "Description", dInfo:"", tTitle: "Temperament", tInfo: "", hwTitle: "Height & Weight", hwInfo: "", hTitle: "Health Problems", hInfo: "", eTitle: "Exercise", eInfo: "", oTitle: "Origin", oInfo: ""}
+];
+var dogInfo = {"Weimaraner" : [	//weimaraner is an array in dogInfo
+								{"breed": "blah"},
+								{"description": "blah"},
+								{"temperament": "blah"},
+								{"height&weight": "blah"},
+								{"healthProblems": "blah"},
+								{"exercise": "blah"},
+								{"origin": "blah"},
+							  ], //end weimaraner array
+			"Siberian Husky": [ //siberian husky is another array in dogInfo	  
+								{"breed": "blah"},
+								{"description": "blah"},
+								{"temperament": "blah"},
+								{"height&weight": "blah"},
+								{"healthProblems": "blah"},
+								{"exercise": "blah"},
+								{"origin": "blah"},
+						      ] //end siberian husky array
+			   }; //ends dogInfo
+				
+var load = require("dogInfoJson");
+//event listener for start button on main window
+fetchButton.addEventListener("click", function(){
+navWindow.openWindow(breedWindow, {animated: true});
+//custom header
+	var breedHeader = Ti.UI.createView({
+		height: 30,
+		backgroundColor: "#878787"
+	});
+	var breedText = Ti.UI.createLabel({
+		text: "Dog Breeds",
+		font: {fontSize: 22, fontWeight: "bold"},
+		color: "#fff"
+	});
+//adds text to header
+breedHeader.add(breedText);
+	//Table Views
+	var breedSection = Ti.UI.createTableViewSection({
+		headerViewer: breedHeader
+	});
+	var breedTable = Ti.UI.createTableView({
+		top: 0
+	});
+	//for loop to add rows using json
+	for(var i = 0, j = dogInfo.Weimaraner.length; i < j; i++){
+		var breedRow = Ti.UI.createTableViewRow({
+			title: dogInfo.Weimaraner[i],
+			//title: breedJson[i].breed,
+			hasChild: true
+		});
+		
+		console.log(dogInfo.Weimaraner[i]);
+		//checks if its running IOS
+		if(Ti.Platform.name === "iPhone OS"){
+			breedRow.hasChild = false;
+			breedRow.hasDetail = true;
+		}
+		//adds row to the section
+		breedSection.add(breedRow);
+
+		//INFO WINDOW
+
+		
+		var dogBreedSection = [breedSection];
+		breedTable.setData(dogBreedSection);
+		breedWindow.add(breedTable);		
+	};
+});
