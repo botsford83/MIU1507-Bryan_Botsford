@@ -1,0 +1,230 @@
+var dogInfo = {"breed" : [	
+							{"name": "Weimaraner",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "blah"
+											},
+										  ],
+							},										  
+							{"name": "Siberian Husky",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "blah"
+											},
+										  ],
+							},
+							{"name": "Labrador Retriever",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "blah"
+											},
+										  ],
+							},
+							{"name": "Boxer",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "blah"
+											},
+										  ],
+							},
+							{"name": "Rottweiler",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "blah"
+											},
+										  ],
+							},
+						 ]
+}; //ends dogInfo
+//gets information*testing purposes
+//Ti.API.info(JSON.stringify(this));
+//event listener for start button on main window
+fetchButton.addEventListener("click", function(){
+	navWindow.openWindow(breedWindow, {animated: true});
+	Ti.API.info(JSON.stringify(this));
+	//custom header
+	var breedHeader = Ti.UI.createView({
+		height: 30,
+		backgroundColor: "#878787"
+	});
+	var breedText = Ti.UI.createLabel({
+		text: "Dog Breeds",
+		font: {fontSize: 22, fontWeight: "bold"},
+		color: "#fff"
+	});
+		//adds text to header
+		breedHeader.add(breedText);
+	//Table Views
+	var breedSection = Ti.UI.createTableViewSection({
+		headerViewer: breedHeader
+	});
+	var breedTable = Ti.UI.createTableView({
+		top: 0
+	});
+		//for loop to add rows using json
+		for(var i = 0, j = dogInfo.breed.length; i < j; i++){
+			var breedRow = Ti.UI.createTableViewRow({
+				title: dogInfo.breed[i].name,
+				hasChild: true
+			});
+				//checks if its running IOS
+				if(Ti.Platform.name === "iPhone OS"){
+					breedRow.hasChild = false;
+					breedRow.hasDetail = true;
+				}
+					//adds row to the section
+					breedSection.add(breedRow);
+						var dogBreedSection = [breedSection];
+		breedTable.setData(dogBreedSection);
+		breedWindow.add(breedTable);
+		//function to display a list of options for a user to choose 
+			breedRow.addEventListener("click", function(){
+				navWindow.openWindow(infoWindow, {animated: true});
+				Ti.API.info(JSON.stringify(this));
+					//custom header
+					var infoHeader = Ti.UI.createView({
+						height: 30,
+						backgroundColor: "#878787"
+					});
+					var infoText = Ti.UI.createLabel({
+						text: "Pupppy Stuff",
+						font: {fontSize: 22, fontWeight: "bold"},
+						color: "#fff"
+					});
+						//adds text to header
+						infoHeader.add(infoText);
+					//Table Views
+					var infoSection = Ti.UI.createTableViewSection({
+						headerViewer: infoHeader
+					});
+					var infoTable = Ti.UI.createTableView({
+						top: 0
+					});
+						//for loop to add rows using json
+						for(var i = 0, j = dogInfo.breed.length; i < j; i++){
+							var infoRow = Ti.UI.createTableViewRow({
+								title: dogInfo.breed[i].titles.infoTitle,
+								hasChild: true
+							});
+								//checks if its running IOS
+								if(Ti.Platform.name === "iPhone OS"){
+									infoRow.hasChild = false;
+									infoRow.hasDetail = true;
+								}
+									//adds row to the section
+									infoSection.add(breedRow);
+										var infoDogSection = [infoSection];
+						infoTable.setData(infoDogSection);
+						infoWindow.add(infoTable);
+						};
+							infoRow.addEventListener("click", function(){
+								navWindow.openWindow(resultWindow, {animated: true});
+								Ti.API.info(JSON.stringify(this));
+								//custom header
+								var resultHeader = Ti.UI.createView({
+									height: 30,
+									backgroundColor: "#878787"
+								});
+								var resultText = Ti.UI.createLabel({
+									text: this.name,
+									font: {fontSize: 22, fontWeight: "bold"},
+									color: "#fff"
+								});
+									//adds text to header
+									resultHeader.add(resultText);
+								//Table Views
+								var resultSection = Ti.UI.createTableViewSection({
+									headerViewer: resultHeader
+								});
+								var resultTable = Ti.UI.createTableView({
+									top: 0
+								});
+								var resultView = Ti.UI.createView({
+									backgroundColor: "#fff",
+									top: 0
+								});
+								var resultLabel = Ti.UI.createLabel({
+									text: "Thank you for your Order",
+									font: {fontSize: 40, fontFamily: "Arial", fontWeight: "bold"},
+									textAlign: "center"
+								});
+								resultView.add(resultLabel);
+									//adds section to window
+									resultWindow.add(resultSection, resultView);	
+									
+									
+									});
+									
+							});
+			};
+});

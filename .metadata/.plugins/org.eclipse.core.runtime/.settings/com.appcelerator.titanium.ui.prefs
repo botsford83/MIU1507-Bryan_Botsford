@@ -1,9 +1,15 @@
 =run
+1507_AboutMe_Botsford_Bryan\:launchMode=run
+1507_AboutMe_Botsford_Bryan\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.D0D5CF9F-F5BF-4706-8762-D9D1CFCCB69B
 1507_InformationApp_Botsford_Bryan\:launchMode=run
 1507_InformationApp_Botsford_Bryan\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.8F27469F-B7ED-4B12-ADD6-A47A27CCB419
 LAST_LAUNCH_TIMESTAMP=1436310207658
+MIU1507-Botsford_Bryan_InformationApp\:launchMode=run
+MIU1507-Botsford_Bryan_InformationApp\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.8F27469F-B7ED-4B12-ADD6-A47A27CCB419
 blah\:launchMode=run
 blah\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.6A6800A0-3494-4FCB-B070-3F7F46B39161
 eclipse.preferences.version=1
 preference.show.console.onError=true
 preference.studio.perspective.version=103
+test\:launchMode=run
+test\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.8F27469F-B7ED-4B12-ADD6-A47A27CCB419

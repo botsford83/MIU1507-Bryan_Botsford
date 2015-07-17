@@ -1,0 +1,22 @@
+for(h in dogInfo.breed[g].titles) {
+									var infoRow = Ti.UI.createTableViewRow({
+										title: dogInfo.breed[g].titles[h].infoTitle[h],
+										desc: dogInfo.breed[g].titles[h].infoDesc[h],
+										hasChild: true
+									});
+									console.log(title.infoDesc);
+									
+									if(Ti.Platform.name === "iPhone OS"){
+										breedRow.hasChild = false;
+										breedRow.hasDetail = true;
+									}
+									infoSection.add(infoRow);
+									var infoBreedSection = [infoSection];		
+									infoTable.setData(infoBreedSection);
+									infoWindow.add(infoTable);							
+									infoRow.addEventListener("click", function(){
+										navWindow.openWindow(resultWindow, {animated: true});
+										console.log(this.desc);
+										
+									});
+							}

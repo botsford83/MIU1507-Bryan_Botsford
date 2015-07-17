@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MIU1507-Botsford_Bryan_InformationApp/Resources/images/cartoon-bone-6.gif&apos; to &apos;bone.gif&apos;" description="Rename resource &apos;cartoon-bone-6.gif&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/images/cartoon-bone-6.gif" name="bone.gif" stamp="1436485562552" updateReferences="true"/>
+</session>
