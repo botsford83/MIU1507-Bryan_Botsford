@@ -1,0 +1,225 @@
+
+var dogInfo = {"breed" : [	
+							{"name": "Weimaraner",
+							"image": "/images/weimaraner.jpg",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "The Weimaraner is a moderately large, athletic, working dog. The medium-sized head has a moderate stop with a medial line going down the forehead. The nose is gray and the teeth meet in a scissors bite. The somewhat wide-set eyes come in shades of light amber, gray or blue-gray. The high-set ears are long and pendant, folded forward and hanging down along the sides of the head. The front legs are straight with webbed, compact feet. The toenails are gray or amber in color. The tail is customarily docked to 1 1⁄2 inches (4 cm) when the dog is two days old. Note: docking tails is illegal in most parts of Europe. Dewclaws are usually removed. The topline slopes gently downward from the shoulders to the rump. The short, smooth coat is tight against the whole body and comes in shades of mouse-gray to silver-gray, blending with darker shades on the body and lighter shades on the head and ears. It also comes in a rarer longhaired variety (FCI Group 7). All shades of gray are accepted. There is sometimes a small white marking on the chest."
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "The Weimaraner is happy, loving, intelligent, cheerful and affectionate. It is good with children. Without the proper exercise it will be very rambunctious and difficult to control. This breed learns quickly but will get bored if the training is the same thing over and over again. This breed needs firm, experienced training starting at puppyhood, with an owner who understands how to be a dog's pack leader, or it can become stubborn and willful. Without this proper leadership, it can become combative with other dogs. This hunting dog has a strong prey instinct and should not be trusted with small non-canine animals such as hamsters, rabbits and guinea pigs. Socialized well with people, places, things and other animals. Brave, protective and loyal, the Weimaraner makes a good guard and watchdog. Weimaraners absolutely crave leadership. They want to know what is expected of them and for how long. If this is not made consistently clear, they will not be stable minded, may be stressed, possibly developing separation anxiety, becoming destructive and restless. Owners should not be harsh, but calm with a natural air of authority to their demeanor. These things are instinctually essential to having a happy, behaved, balanced dog. Give your Weim plenty of extensive exercise, or he will become very restless and over-excited. Because this breed is so full of energy, the first thing it needs to learn is sit. This will help prevent jumping, as this is a strong dog and will knock over the elderly or children by accident. This breed especially should not be hit to discipline, as they become wary easily. Once they have a fear of someone/something, they look to avoid and training is difficult. They are so eager to please and motivated by reward (food or praise) that once a trick is learned, the dog will leap to repeat for praise. Although, they are often mistaken as dumb, because they have such focus, if the trick or owner’s request isn't their focus at the time, it will not occur! Spend a lot of time with short-leash walking, next to you. If left to run ahead the Weimaraner will pull like a train and start to believe it is alpha, as pack leader goes first."
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "Males 24 - 27 inches (61 - 69 cm) Females 22 - 25 inches (56 - 63 cm) Weight: Males 55 - 70 pounds (25 - 32 kg) Females 50 - 65 pounds (23 - 29 kg)"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "Prone to bloat; it is better to feed them two or three small meals a day rather than one large meal. Also can be prone to hip dysplasia and hypertropic osteodystrophy (excessive rapid growth). Also prone to mast cell tumors."
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "These are powerful working dogs with great stamina. They need to be taken for a daily, long walk or jog. In addition, they need plenty of opportunities to run free. Do not exercise them after meals. It is best to feed a dog after a long walk, as soon as it cools down."
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "The breed is several centuries old, is derived from the same selective stock as other German hunting breeds and is a descendant of the Bloodhound. The Weimaraner is a good all-around hunting dog and an excellent pointer. It was originally used as a big-game hunter for bear, deer and wolves, but is used more today as a bird dog and even a water retriever. A Weimaraner appeared in a Van Dyck painting from the early 1600s. Howard Knight, who founded the first American Weimaraner breed club, imported the dogs to the United States in 1929. The popular children's TV show Sesame Street has been known to plays skits with this breed dressed up in human clothes. The Weimaraner was first recognized by the AKC in 1943. Some of its talents include: hunting, tracking, retrieving, pointing, watchdog, guarding, police work, service for the disabled, search and rescue and agility."
+											},
+											
+										  ],
+						},										  
+							{"name": "Siberian Husky",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "husky"
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "blah"
+											},
+										  ],
+							},
+							{"name": "Labrador Retriever",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc" : "labby",
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "blah"
+											},
+										  ],
+							},
+							{"name": "Boxer",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "boxer"
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "blah"
+											},
+										  ],
+							},
+							{"name": "Rottweiler",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "rotty"
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "blah"
+											},
+										  ],
+							},
+						 ]
+}; //ends dogInfo
+//event listener for start button on main window
+fetchButton.addEventListener("click", function(){
+	navWindow.openWindow(breedWindow, {animated: true});
+	//custom header
+	var breedHeader = Ti.UI.createView({
+		height: 30,
+		backgroundColor: "#878787",
+		top: 0
+	});
+	var breedText = Ti.UI.createLabel({
+		text: "Dog Breeds",
+		font: {fontSize: 22, fontWeight: "bold"},
+		color: "#fff"
+	});
+		//adds text to header
+		breedHeader.add(breedText);
+	//Table Views
+	var breedSection = Ti.UI.createTableViewSection({
+		headerViewer: breedHeader
+	});
+	var breedTable = Ti.UI.createTableView({
+		top: breedHeader.height
+	});
+	
+		//for loop to add rows using json
+		for(g in dogInfo.breed) {
+			var breedRow = Ti.UI.createTableViewRow({
+				title: dogInfo.breed[g].name,
+				desc: dogInfo.breed[g].titles,
+				image: dogInfo.breed[g].image,
+				hasChild: true
+			});
+			
+				//checks if its running IOS
+				if(Ti.Platform.name === "iPhone OS"){
+					breedRow.hasChild = false;
+					breedRow.hasDetail = true;
+				}
+					//adds row to the section
+					breedSection.add(breedRow);
+						var dogBreedSection = [breedSection];
+						
+						// Function to run once a row is selected
+						breedRow.addEventListener("click", function(){
+							navWindow.openWindow(infoWindow, {animated: true});
+							//custom header
+							var detailImage = Ti.UI.createImageView({
+								image: this.image,
+								width: 350,
+								height: 200,
+								top: 0
+							});
+							var infoHeader = Ti.UI.createView({
+								height: 30,
+								backgroundColor: "#878787"
+							});
+							var infoText = Ti.UI.createLabel({
+								text: this.title,
+								font: {fontSize: 22, fontWeight: "bold"},
+								color: "#fff"
+							});
+								//adds text to header
+								infoHeader.add(infoText);
+							//Table Views
+							var infoSection = Ti.UI.createTableViewSection({
+								headerViewer: infoHeader
+							});
+							var infoTable = Ti.UI.createTableView({
+								top: detailImage.height
+							});
+							//for loop to add rows using json
+							for(h in this.desc) {
+									var infoRow = Ti.UI.createTableViewRow({
+										title: this.desc[h].infoTitle,
+										desc: this.desc[h].infoDesc,
+										hasChild: true,
+										top: 50
+									});								
+									if(Ti.Platform.name === "iPhone OS"){
+										breedRow.hasChild = false;
+										breedRow.hasDetail = true;
+									}
+									infoSection.add(infoRow);
+									var infoBreedSection = [infoSection];		
+									infoTable.setData(infoBreedSection);
+									infoWindow.add(infoTable,detailImage);		
+									
+														
+									infoRow.addEventListener("click", function(){
+										navWindow.openWindow(resultWindow, {animated: true});
+										var detailLabelView = Ti.UI.createView({
+											height: 300,
+											backgroundColor: "#fff",
+											top: 20
+										});
+										var detailText = Ti.UI.createLabel({
+											text: this.desc,
+											image: this.image,
+											font: {fontSize: 12, fontFamily: "Arial", fontWeight: "bold"},
+											width: "100%",
+											textAlign: "center",
+											top: "center"
+										});	
+										detailLabelView.add(detailText);
+										resultWindow.add(detailLabelView);
+									});
+								
+							}
+						});
+						
+			breedTable.setData(dogBreedSection);
+			breedWindow.add(breedTable,breedHeader);
+		};
+});

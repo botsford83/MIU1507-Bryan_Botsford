@@ -1,38 +1,40 @@
 //sets background
-Titanium.UI.setBackgroundColor('#000');
+Titanium.UI.setBackgroundColor('#CC9933');
 //creates main window
 var mainWindow = Ti.UI.createWindow({
-	backgroundImage: "/images/grassAndSun",
+	backgroundImage: "/images/editHouse.jpg",
 	title: "Dog Furmation"
 });
 
 //navigation window
 var navWindow = Ti.UI.iOS.createNavigationWindow({
-	window: mainWindow
+	window: mainWindow,
+	color: "CC9933"
 });
 //additional windows
 var breedWindow = Ti.UI.createWindow({
-	backgroundColor: '#fff',
-	title: "Dog Breeds"
+	backgroundColor: '#CC9933',
+	title: "Dog Furmation"
 });
 var infoWindow = Ti.UI.createWindow({
-	backgroundColor: '#fff',
-	title: "Infurmation"
+	backgroundColor: '#CC9933',
+	title: "Dog Furmation"
 });
 var resultWindow = Ti.UI.createWindow({
-	backgroundColor: '#fff',
-	title: "Infurmation"
+	backgroundColor: '#336699',
+	title: "Dog Furmation"
 });
 //buttons
 var fetchButton = Ti.UI.createButton({
-	title: "Fetch",
-	font: {fontSize: 18, fontFamily: "Arial", fontWeight: "bold"},
-	color: "#6a0000",
+	title: "Enter",
+	font: {fontSize: 30, fontFamily: "Stencil", fontWeight: "bold"},
+	color: "#336699",
 	height: 70,
-	top: 290,
+	top: 140,
+	left: 70,
 	//borderColor: "#fff",
 	//backgroundColor: '#fff',
-	width: "70%"
+	//width: "40%"
 });
 var breedRow;
 //loads additional .js files

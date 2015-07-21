@@ -1,0 +1,234 @@
+
+var dogInfo = {"breed" : [	
+							{"name": "Weimaraner",
+							"image": "/images/weimaraner.jpg",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "The Weimaraner is a moderately large, athletic, working dog. The medium-sized head has a moderate stop with a medial line going down the forehead. The nose is gray and the teeth meet in a scissors bite. The somewhat wide-set eyes come in shades of light amber, gray or blue-gray. The high-set ears are long and pendant, folded forward and hanging down along the sides of the head. The front legs are straight with webbed, compact feet. The toenails are gray or amber in color. The tail is customarily docked to 1 1⁄2 inches (4 cm) when the dog is two days old. Note: docking tails is illegal in most parts of Europe. Dewclaws are usually removed. The topline slopes gently downward from the shoulders to the rump. The short, smooth coat is tight against the whole body and comes in shades of mouse-gray to silver-gray, blending with darker shades on the body and lighter shades on the head and ears. It also comes in a rarer longhaired variety (FCI Group 7). All shades of gray are accepted. There is sometimes a small white marking on the chest."
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "The Weimaraner is happy, loving, intelligent, cheerful and affectionate. It is good with children. Without the proper exercise it will be very rambunctious and difficult to control. This breed learns quickly but will get bored if the training is the same thing over and over again. This breed needs firm, experienced training starting at puppyhood, with an owner who understands how to be a dog's pack leader, or it can become stubborn and willful. Without this proper leadership, it can become combative with other dogs. This hunting dog has a strong prey instinct and should not be trusted with small non-canine animals such as hamsters, rabbits and guinea pigs. Socialized well with people, places, things and other animals. Brave, protective and loyal, the Weimaraner makes a good guard and watchdog. Weimaraners absolutely crave leadership. They want to know what is expected of them and for how long. If this is not made consistently clear, they will not be stable minded, may be stressed, possibly developing separation anxiety, becoming destructive and restless. Owners should not be harsh, but calm with a natural air of authority to their demeanor. These things are instinctually essential to having a happy, behaved, balanced dog. Give your Weim plenty of extensive exercise, or he will become very restless and over-excited. Because this breed is so full of energy, the first thing it needs to learn is sit. This will help prevent jumping, as this is a strong dog and will knock over the elderly or children by accident. This breed especially should not be hit to discipline, as they become wary easily. Once they have a fear of someone/something, they look to avoid and training is difficult. They are so eager to please and motivated by reward (food or praise) that once a trick is learned, the dog will leap to repeat for praise. Although, they are often mistaken as dumb, because they have such focus, if the trick or owner’s request isn't their focus at the time, it will not occur! Spend a lot of time with short-leash walking, next to you. If left to run ahead the Weimaraner will pull like a train and start to believe it is alpha, as pack leader goes first."
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "Males 24 - 27 inches (61 - 69 cm) Females 22 - 25 inches (56 - 63 cm) Weight: Males 55 - 70 pounds (25 - 32 kg) Females 50 - 65 pounds (23 - 29 kg)"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "Prone to bloat; it is better to feed them two or three small meals a day rather than one large meal. Also can be prone to hip dysplasia and hypertropic osteodystrophy (excessive rapid growth). Also prone to mast cell tumors."
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "These are powerful working dogs with great stamina. They need to be taken for a daily, long walk or jog. In addition, they need plenty of opportunities to run free. Do not exercise them after meals. It is best to feed a dog after a long walk, as soon as it cools down."
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "The breed is several centuries old, is derived from the same selective stock as other German hunting breeds and is a descendant of the Bloodhound. The Weimaraner is a good all-around hunting dog and an excellent pointer. It was originally used as a big-game hunter for bear, deer and wolves, but is used more today as a bird dog and even a water retriever. A Weimaraner appeared in a Van Dyck painting from the early 1600s. Howard Knight, who founded the first American Weimaraner breed club, imported the dogs to the United States in 1929. The popular children's TV show Sesame Street has been known to plays skits with this breed dressed up in human clothes. The Weimaraner was first recognized by the AKC in 1943. Some of its talents include: hunting, tracking, retrieving, pointing, watchdog, guarding, police work, service for the disabled, search and rescue and agility."
+											},										  
+										  ]
+						    },										  
+							{"name": "Siberian Husky",
+							"image": "/images/husky.jpg",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "Siberian Huskies are strong, compact, working sled dogs. The medium-sized head is in proportion to the body, with a muzzle that is equal in length to the skull, with a well-defined stop. The color of the nose depends upon the color of the dog's coat. It is black in gray, tan or black dogs, liver in copper dogs and flesh-colored in pure white dogs. The medium-sized, oval-shaped eyes are moderately spaced and come in blue, brown, amber or any combination thereof. Eyes can be half blue and half brown (parti-eyed), or dogs can have one blue eye and one brown eye (bi-eyed). The erect ears are triangular in shape, and set high up on the head. The teeth meet in a scissors bite. The tail is carried over the back in a sickle curve, not curved to either side when the dog is excited. The large snow shoe feet have hair between the toes to help keep them warm and for gripping on ice. Dewclaws are sometimes removed. The medium-length, double coat is thick and can withstand temperatures as low as -58° to - 76° F (-50° to -60° C). The coat also comes in a longhaired variety called a wooly coat. The wooly (sometimes spelled woolly or wooley) coat length comes from a resessive gene and is not in most of the kennel club's written standard. Coat colors include all, from black to pure white, with or without markings on the head. The face mask and underbody are usually white, and the remaining coat any color. Examples of common colors are black and white, red and white, brown, gray and white, silver, wolf-gray, sable and white, red-orange with black tips, dark gray and white. Piebald is a very common coat pattern."
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "Siberian Huskies are loving, gentle, playful, happy-go-lucky dogs that are fond of their families. Keen, docile, social, relaxed and rather casual, this is a high-energy dog, especially when young. Good with children and friendly with strangers, they are not watchdogs, for they bark little and love everyone. Huskies are very intelligent and trainable, but they will only obey a command if they see the human is stronger minded than themselves. If the handler does not display leadership, they will not see the point in obeying. Training takes patience, consistency and an understanding of the Arctic dog character. If you are not this dog’s 100% firm, confident, consistent pack leader, he will take advantage, becoming willful and mischievous. Huskies make an excellent jogging companion, as long as it is not too hot. Huskies may be difficult to housebreak. This breed likes to howl and gets bored easily. Does not do well if left alone for a long period of time without a great deal of exercise beforehand. A lonely Husky, or a Husky that does not get enough mental and physical exercise can be very destructive. Remember that the Husky is a sled dog in heart and soul. It is good with other pets if raised with them from puppyhood. Huskies are thrifty eaters and need less food than you might expect. This breed likes to roam. Siberian Huskies can make wonderful companions for people who are aware of what to expect from these beautiful and intelligent animals and are willing to put the time and energy into them."
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "Height: Males 21 - 231⁄2 inches (53 - 60 cm) Females 20 - 22 inches (51 - 56 cm) Weight: Males 45 - 60 pounds (20 - 27 kg) Females 35 - 50 pounds (16 - 221⁄2 kg)"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "Prone to hip dysplasia, ectopy (displacement of the urethra), eye issues such as juvenile cataracts, PRA (primarily in male dogs), corneal dystrophy and crystalline corneal opacities. Breeders can get hip screenings from the OFA and eye screenings yearly from a canine ophthalmologist (AVCO) and register the exam through CERF and SHOR). Also prone to a skin issue known as zinc responsive dermatitis, which improves by giving zinc supplements."
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "Siberian Huskies need a fair amount of exercise, including a daily walk or jog, but should not be excessively exercised in warm weather. They need a large yard with a high fence, but bury the wire at the base of the fence because they are likely to dig their way out and go off hunting."
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "Siberian Huskies were used for centuries by the Chukchi Tribe, off the eastern Siberian peninsula to pull sleds, herd reindeer and as a watchdog. They were perfect working dogs for the harsh Siberian conditions: hardy, able to integrate into small packs, and quite happy to work for hours on end. The dogs have great stamina and are lightweight. Native to Siberia, the Husky was brought to Alaska by fur traders in Malamute for Arctic races because of their great speed. In 1908 Siberian Huskies were used for the first All-Alaskan Sweepstakes, an event where mushers take their dogs on a 408-mile long dogsled race. The dogs gained popularity in 1925 when there was a diphtheria epidemic in Nome, Alaska. Siberian Huskies were used to bring in the much needed medicine to the people. In the early to mid-1900s Admiral Byrd used the dogs in his Antarctic Expeditions. During World War II the dogs served on the Army’s Arctic Search and Rescue Unit. The Siberian Husky’s talents are sledding, carting and racing. The Siberian Husky was recognized by the AKC in 1930."
+											},
+										  ],
+							},
+							{"name": "Labrador Retriever",
+							"image": "/images/lab.jpg",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc" : "There are two types of Labradors, the English Labrador and the American Labrador. The English bred Lab comes from English bred stock. Its general appearance is different than the American bred Lab. The English bred Labs are heavier, thicker and blockier. The American bred Lab comes from American bred stock and is tall and lanky. The double coat is smooth and does not have any waves. Coat colors come in solid black, yellow or chocolate. There is also said to be a rare silver or gray color that is referred to by the AKC as a shade of chocolate. This color is controversial and some claim it is a Weimaraner cross, while others say it is a true mutation. The head of the Labrador is broad with a moderate stop. The nose is thick, black on black and yellow dogs and brown on chocolate dogs. The nose color often fades and is not considered a fault in the show ring. The teeth should meet in a scissors or level bite. The muzzle is fairly wide. The neck is proportionately wide and powerful. The body is slightly longer than tall. The short, hard coat is easy to care for and water-resistant. The medium-sized eyes are set well apart. Eye color should be brown in yellow and black dogs and hazel or brown in chocolate dogs. Some Labs can also have green or greenish-yellow eyes. In silver dogs the eye color is usually gray. The eye rims are black in yellow and black dogs and brown in chocolate dogs. The ears are medium in size, hanging down and pendant in shape. The otter tail is thick at the base, gradually tapering towards the tip. It is completely covered with short hair, with no feathering. The feet are strong and compact with webbed feet which aid the dog in swimming.",
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "One of the most popular breeds in the USA, the Labrador Retriever is loyal, loving, affectionate and patient, making a great family dog. Highly intelligent, good-natured, very willing and eager to please, it is among the top choices for service dog work. Labs love to play, especially in water, never wanting to pass up the opportunity for a good swim. These lively dogs have an excellent, reliable temperament and are friendly, superb with children and equable with other dogs. They crave human leadership and need to feel as though they are part of the family. Labs are easily trained. Some may be reserved with strangers unless very well socialized, preferably while they are still puppies. Adult Labs are very strong; train them while they are puppies to heel on the leash, and not to bolt out doorways and gateways before the humans. These dogs are watchdogs, not guard dogs, although some have been known to guard. They can become destructive if the humans are not 100% pack leader and/or if they do not receive enough mental and physical exercise, and left too much to their own devices. Show lines are generally heavier and easier going than field lines. Field lines tend to be very energetic and will easily become high strung without enough exercise. Labs bred from English lines (English Labs) are more calm and laid back than Labradors bred from American lines. English Labs mature quicker than the American type."
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "Height: Males 22 - 24 inches (56 - 61cm) Females 21 - 23 inches (53 - 58 cm) Weight: Males 60 - 75 pounds (27 - 34 kg) Females 55 - 70 pounds (25 - 32 kg)"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "Prone to hip and elbow dysplasia, PRA, mast cell tumors and eye disorders."
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "blah"
+											},
+										  ],
+							},
+							{"name": "Boxer",
+							"image": "/images/weimaraner.jpg",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "boxer"
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "blah"
+											},
+										  ],
+							},
+							{"name": "Rottweiler",
+							"image": "/images/weimaraner.jpg",
+							 "titles": [	{"infoTitle": "Description",
+											 "infoDesc": "rotty"
+											},
+											{"infoTitle": "Temperament",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Height & Weight",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Health Problems",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Exercise",
+											 "infoDesc": "blah"
+											},
+											{"infoTitle": "Origin",
+											 "infoDesc": "blah"
+											},
+										  ],
+							},
+						 ],
+}; //ends dogInfo
+//event listener for start button on main window
+fetchButton.addEventListener("click", function(){
+	navWindow.openWindow(breedWindow, {animated: true});
+	//custom header
+	var breedHeader = Ti.UI.createView({
+		height: 30,
+		backgroundColor: "#336699",
+		top: 0
+	});
+	var breedText = Ti.UI.createLabel({
+		text: "Dog Breeds",
+		font: {fontSize: 22, fontWeight: "bold"},
+		color: "#fff"
+	});
+		//adds text to header
+		breedHeader.add(breedText);
+	//Table Views
+	var breedSection = Ti.UI.createTableViewSection({
+		headerViewer: breedHeader
+	});
+	var breedTable = Ti.UI.createTableView({
+		top: breedHeader.height
+	});
+	
+		//for loop to add rows using json
+		for(g in dogInfo.breed) {
+			var breedRow = Ti.UI.createTableViewRow({
+				title: dogInfo.breed[g].name,
+				desc: dogInfo.breed[g].titles,
+				image: dogInfo.breed[g].image,
+				hasChild: true,
+				color: "#CC9933"
+			});
+			
+				//checks if its running IOS
+				if(Ti.Platform.name === "iPhone OS"){
+					breedRow.hasChild = false;
+					breedRow.hasDetail = true;
+				}
+					//adds row to the section
+					breedSection.add(breedRow);
+						var dogBreedSection = [breedSection];
+						
+						// Function to run once a row is selected
+						breedRow.addEventListener("click", function(){
+							navWindow.openWindow(infoWindow, {animated: true});
+							//custom header
+							
+							var infoHeader = Ti.UI.createView({
+								height: 30,
+								backgroundColor: "#336699",
+								top: 0
+							});
+							var infoText = Ti.UI.createLabel({
+								text: this.title,
+								font: {fontSize: 22, fontWeight: "bold"},
+								color: "#fff"
+							});
+								//adds text to header
+								infoHeader.add(infoText);
+								
+								var detailImage = Ti.UI.createImageView({
+									image: this.image,
+									width: 350,
+									height: 175,
+									top: infoHeader.height
+								});
+							//Table Views
+							var infoSection = Ti.UI.createTableViewSection({
+								headerViewer: infoHeader
+							});
+							var infoTable = Ti.UI.createTableView({
+								top: detailImage.height + 30
+							});
+							//for loop to add rows using json
+							for(h in this.desc) {
+									var infoRow = Ti.UI.createTableViewRow({
+										title: this.desc[h].infoTitle,
+										desc: this.desc[h].infoDesc,
+										hasChild: true,
+										top: 50,
+										color: "#336699"
+									});								
+									if(Ti.Platform.name === "iPhone OS"){
+										breedRow.hasChild = false;
+										breedRow.hasDetail = true;
+									}
+									infoSection.add(infoRow);
+									var infoBreedSection = [infoSection];		
+									infoTable.setData(infoBreedSection);
+									infoWindow.add(infoTable,detailImage,infoHeader);		
+									
+														
+									infoRow.addEventListener("click", function(){
+										navWindow.openWindow(resultWindow, {animated: true});
+										var detailLabelView = Ti.UI.createView({
+											height: 300,
+											backgroundColor: "#336699",
+											top: 0
+										});
+										var detailText = Ti.UI.createLabel({
+											text: this.desc,
+											image: this.image,
+											font: {fontSize: 12, fontFamily: "Arial", fontWeight: "bold"},
+											color: "#fff",
+											width: "100%",
+											textAlign: "center",
+											top: "center"
+										});	
+										detailLabelView.add(detailText);
+										resultWindow.add(detailLabelView);
+									});
+								
+							}
+						});
+						
+			breedTable.setData(dogBreedSection);
+			breedWindow.add(breedTable,breedHeader);
+		};
+});
