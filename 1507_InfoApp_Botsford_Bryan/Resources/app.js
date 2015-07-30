@@ -31,7 +31,7 @@ var fetchButton = Ti.UI.createButton({
 	color: "#336699",
 	height: 70,
 	top: 140,
-	left: 70,
+	left: 60,
 	//borderColor: "#fff",
 	//backgroundColor: '#fff',
 	//width: "40%"

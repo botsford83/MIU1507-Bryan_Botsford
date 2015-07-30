@@ -1,0 +1,88 @@
+noteButton.addEventListener("click", function(){	
+	navWindow.openWindow(noteWindow, {animated: true}); 
+	
+	var notesField = Ti.UI.createTextField({
+	    top:15,
+	    width:250,
+	    height:35,
+	    hintText:'Enter Notes',
+	    clearOnEdit:'true',
+	    borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	    clearButtonMode:Ti.UI.INPUT_BUTTONMODE_ONFOCUS
+	});
+	noteWindow.add(notesField);
+	 
+	var submit = Ti.UI.createButton({
+	    top:60,
+	    left:210,
+	    width:75,
+	    height:30,
+	    title:'Submit',
+	    font:{fontFamily:'Trebuchet MS', fontWeight:'bold'},
+	    color:'#800000'
+	});
+	noteWindow.add(submit);
+	
+	var save = Ti.UI.createButton({
+		top: submit.height + submit.top,
+	    left:210,
+	    width:75,
+	    height:30,
+	    title:'Save',
+	    font:{fontFamily:'Trebuchet MS', fontWeight:'bold'},
+	    color:'#800000'
+	});
+	noteWindow.add(save);
+	 
+	    submit.addEventListener('click', function(){
+	        var row = Ti.UI.createTableViewRow({height:'auto', selectionStyle: Titanium.UI.iPhone.TableViewCellSelectionStyle.BLUE});
+	        var label = Ti.UI.createLabel({text:notesField.value, color:'#111', width:'auto', height:'auto',left:7});
+	        row.add(label);
+	        tableView.appendRow(row);
+	        notesField.blur();
+	        
+	        save.addEventListener('click', function(){
+		    	//Table Views
+		    	var label =[]
+				var breedSection = Ti.UI.createTableViewSection({
+					
+				});
+				var breedTable = Ti.UI.createTableView({
+					
+				});
+				
+					//for loop to add rows using json
+					for(g in label) {
+						var breedRow = Ti.UI.createTableViewRow({
+							title: label[g].text,
+							color: "#CC9933"
+						});
+						console.log(breedRow.Title);
+						
+							//checks if its running IOS
+							if(Ti.Platform.name === "iPhone OS"){
+								breedRow.hasChild = false;
+								breedRow.hasDetail = true;
+							}
+								//adds row to the section
+								breedSection.add(breedRow);
+									var dogBreedSection = [breedSection];
+					};
+					
+					breedTable.setData(dogBreedSection);
+			noteWindow.add(breedTable);
+		    });
+	    });
+	    
+	    
+	 
+	var tableView = Ti.UI.createTableView({
+	    top: save.height + save.top + 10,
+	    width:295,
+	    height:305,
+	    backgroundColor:'white',
+	    borderRadius:5
+	});
+	
+	noteWindow.add(tableView);
+});

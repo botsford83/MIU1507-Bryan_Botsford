@@ -1,0 +1,55 @@
+noteButton.addEventListener("click", function(){	
+	navWindow.openWindow(noteWindow, {animated: true}); 
+	
+	var notesField = Ti.UI.createTextField({
+	    top:15,
+	    width:250,
+	    height:35,
+	    hintText:'Enter Notes',
+	    clearOnEdit:'true',
+	    borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	    clearButtonMode:Ti.UI.INPUT_BUTTONMODE_ONFOCUS
+	});
+	noteWindow.add(notesField);
+	 
+	var submit = Ti.UI.createButton({
+	    top:60,
+	    left:210,
+	    width:75,
+	    height:30,
+	    title:'Submit',
+	    font:{fontFamily:'Trebuchet MS', fontWeight:'bold'},
+	    color:'#800000'
+	});
+	noteWindow.add(submit);
+	
+	var save = Ti.UI.createButton({
+		top: submit.height + submit.top + 2,
+	    left:210,
+	    width:75,
+	    height:30,
+	    title:'Submit',
+	    font:{fontFamily:'Trebuchet MS', fontWeight:'bold'},
+	    color:'#800000'
+	});
+	 
+	    submit.addEventListener('click', function(){
+	        var row = Ti.UI.createTableViewRow({height:'auto', selectionStyle: Titanium.UI.iPhone.TableViewCellSelectionStyle.BLUE});
+	        var label = Ti.UI.createLabel({text:notesField.value, color:'#111', width:'auto', height:'auto',left:7});
+	        row.add(label);
+	        tableView.appendRow(row);
+	        notesField.blur();
+	    });
+	    
+	    save.addEventListener('click', function(){
+	 
+	var tableView = Ti.UI.createTableView({
+	    top:100,
+	    width:295,
+	    height:305,
+	    backgroundColor:'white',
+	    borderRadius:5
+	});
+	
+	noteWindow.add(tableView);
+});
